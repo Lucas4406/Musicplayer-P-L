@@ -1,9 +1,10 @@
 const navLinks = document.querySelectorAll(".button-container a")
 const activePage = window.location.pathname
-navLinks.forEach(navLink =>{
-    if(navLink.href.includes(`${activePage}`)){
-        navLink.classList.add("active")
+navLinks.forEach(link =>{
+    if(link.href.includes(`${activePage}`)){
+        link.classList.add("active")
         console.log(`${activePage}`);
+        console.log(link.href)
     }
 })
 
