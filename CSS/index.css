@@ -7,7 +7,7 @@ body{
     width: 100%;
     display:flex;
     justify-content: space-between;
-    height: 8vh;
+    height: 9vh;
     background-color: #333;
     overflow-y: hidden;
 }
@@ -19,7 +19,7 @@ body{
     text-decoration: none;
     list-style: none;
     color:white;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     height: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -30,10 +30,11 @@ body{
     color: white;
 }
 .header-list{
-    gap:1rem;
+    gap:2rem;
     height: 100%;
 }
 .list-item > a{
+    display: block;
     color: white;
     list-style: none;
     height: 100%;
@@ -43,8 +44,12 @@ body{
     color: rgb(216, 216, 216);
 }
 .link.active{
-    color: rgb(216, 216, 216);
+    color:#1DB954;
 }
 .header-logo{
-    padding:.25rem;
+    padding:.3rem;
+    cursor: pointer;
+}
+ul{
+    margin:0;
 }
